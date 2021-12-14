@@ -1,0 +1,142 @@
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class CS1702_Lab8 {
+	static String title=
+			"     _______..__   __.     __        __  ___    _______                __            __       _______   _______  _______ .______           _______. \n"+
+			"    /       || \\ |  |     /  \\      |  |/  /   |   ____|     ___      |  |          /  \\     |       \\ |       \\|   ____||    ' \\         /       |  \n"+
+			"   |   (----`|  \\|  |    /  ^ \\     |  '  /    |  |__       ('' )     |  |         /  ^ \\    |  .--.  ||  .--. ||  |__   |  |-)  |       |   (----`  \n"+
+			"    \\   \\    |  \\   |   /  /'\\ \\    | <  |     |   __|      /   \\     |  |        /  /'\\ \\   | |   |  ||  |  | ||   __|  |      /        \\   \\      \n"+
+			".----)   |   |  |\\  |  /  _____ \\   |  .  \\    |  |____    | ('> /    |   `----  /  _____ \\  |  '--'  ||  '--' ||  |____ |  |\\ \\---.   ---)   |     \n"+
+			"|_______/    |__| \\_| /__/    \\__\\  |__|\\__\\   |_______|   |____/     |_______| /__/    \\__\\ |_______/ |_______/|_______||'_| `.____| |_______/      \n"+                                                                                                                  
+			"                                                                                                                                                                  ";
+
+	public static void main (String[] args)
+    {
+		System.out.print(title);
+		DaysInAMonthC(1);
+		System.out.println(reverseNameIterative("yoda"));
+	}
+	public static short DaysInAMonthC(int Month)
+	{         
+		    short invalid;
+			switch (Month) 
+			{
+			case 1: 
+				System.out.println("January");
+				System.out.println("Days in Month:31");
+				break;
+			case 2:
+				System.out.println("Feburary");
+				System.out.println("Days in Month:28");
+				break;
+			case 3: 
+				System.out.println("March");
+				System.out.println("Days in Month:31");
+				break;
+			case 4:
+				System.out.println("April");
+				System.out.println("Days in Month:30");
+				break;
+			case 5:
+				System.out.println("May");
+				System.out.println("Days in Month:31");
+				break;
+			case 6:
+				System.out.println("June");
+				System.out.println("Days in Month:30");
+				break;
+			case 7:
+				System.out.println("July");
+				System.out.println("Days in Month:31");
+				break;
+			case 8:
+				System.out.println("August");
+				System.out.println("Days in Month:31");
+				break;
+			case 9:
+				System.out.println("September");
+				System.out.println("Days in Month:30");
+				break;
+			case 10:
+				System.out.println("October");
+				System.out.println("Days in Month:31");
+				break;
+			case 11:
+				System.out.println("November");
+				System.out.println("Days in Month:30");
+				break;
+			case 12:
+				System.out.println("December");
+				System.out.println("Days in Month:31");
+				break;
+			default: 
+				if (Month>=1 && Month<=12) 
+				{ 
+					return invalid = -3;
+				}
+			}
+			return (short) Month;
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		}
+
+	
+
+	private static String reverseNameIterative (String theName) {
+		  StringBuilder reverseName = new StringBuilder();
+		  char[] strChars = theName.toCharArray();
+		  int len = theName.length() -1;
+		  for (int i = len; i >= 0; i--) {
+		    reverseName.append(strChars);
+		  }
+		  return (reverseName.toString());
+		}
+
+	
+	
+	
+	 public static String ThreeDecimalPlaces(double Number)
+	    {
+	        DecimalFormat Decimalformatting = new DecimalFormat("0.000");
+	        String formatting = Decimalformatting.format(Number);
+	        return formatting;
+	    }
+
+	 public static short HowManyDigitsBeforeF(float Number)
+	    {
+	        String number1 = String.valueOf(Number);
+	        short Number_after = (short) (number1.indexOf('.') );
+	        return Number_after;
+	    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
