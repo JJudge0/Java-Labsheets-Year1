@@ -3,7 +3,7 @@ public class CS1702_Lab1
 	public static void main(String args[]) 
 	{
 // Calling each method from the main of which is linked to 1 class also void means empty                                   
-	    System.out.println("STUDENT NAME: JATINDER JUDGE STUDENTID: 1949579");
+	    System.out.println("STUDENT NAME: JATINDER JUDGE STUDENT");
 		Method1();
         Method2();
         Method3();
