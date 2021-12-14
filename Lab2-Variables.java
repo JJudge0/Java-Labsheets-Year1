@@ -4,8 +4,7 @@ public class CS1702_Lab2 {
 	public static void main(String args[])
 
 	{
-    System.out.println("STUDENT NAME: JATINDER JUDGE STUDENT");
-	Introduction2_1();
+    Introduction2_1();
     Assignment_Expressions2_2();
     Reservewords2_3();
 	}
