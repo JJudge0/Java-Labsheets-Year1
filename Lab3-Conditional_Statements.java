@@ -6,7 +6,7 @@ public class CS1702_Lab3 {
 	static public void main(String args[])
 	
 	{
-		 System.out.println("STUDENT NAME: JATINDER JUDGE STUDENT");  // Sub methods for every section of the lab
+		 
 	               Introduction_3_1();  
 		   Relational_Operators_3_2();
 		 Designing_ifstatements_3_3();
