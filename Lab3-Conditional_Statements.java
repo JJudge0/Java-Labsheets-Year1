@@ -20,7 +20,6 @@ public class CS1702_Lab3 {
 		System.out.println("3.1------------------INTRODUCTION------------------");
 		System.out.println("Code has been commented out as it was the example in the worksheet");
 	////////////////////////EXAMPLE////////////////////////////////	
-			
 		//  	int a = 1000,b = -22; //It's declaring the variable a,b as "integers"
 		// 	
 		//	   if (a < b) 
@@ -31,8 +30,7 @@ public class CS1702_Lab3 {
 		//	   {
 		//	      System.out.println("a is NOT less than b");
 		//	   }
-		// If 'a' is smaller than 'b' write "a is less than b" if not system write "a not less than b".
-	
+		// If 'a' is smaller than 'b' write "a is less than b" if not system write "a not less than b".	
 	////////////////////////EXAMPLE/////////////////////////////////
 			
 	}
